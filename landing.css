@@ -1,0 +1,79 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat',sans-serif;
+}
+.hero-section{
+    background-image:url(hotel.jpg);
+    background-size:cover;
+    height:100vh;
+    position:relative;
+    text-align:center;
+}
+.hero-text{
+   color:white;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+
+}
+.book-button,.know-button{
+    background-color:aquamarine;
+    font-size:18px;
+    border-radius:20px;
+    border:none;
+    padding:10px 20px;
+    margin-top:10px;
+    cursor:pointer;
+}
+.about-us{
+ float:left;
+ width:50%;
+ margin:10px 10px;
+ text-align:center;
+}
+.about-section > h1{
+text-align:center;
+margin:10px 0px;
+text-decoration:underline;
+}
+.amenities{
+    text-align:center;
+}
+.amenities ul{
+ display:inline-block;
+ text-align:left;
+ margin-top:10px;
+
+}
+.nav-link ul li {
+    display:inline-block;
+    list-style:none;
+    margin:0 20px;
+    
+}
+.nav-link ul li a{
+  padding:9px;
+  text-decoration:none;
+  color:white;
+  font-size:20px;
+  transition:1s;
+}
+.nav-link ul li a:hover{
+    background-color:rgb(252,20,140);
+}
+.content{
+    margin:auto;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.content h4{
+    color:white;
+    cursor:pointer;
+    font-weight:700;
+    font-size:40px;
+
+}
